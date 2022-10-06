@@ -7,7 +7,7 @@
         <View style= {styles.container}>
 
 
-          <Text>dgfgfdgfdgdgdhgf</Text>
+          <Text style= {styles.texto} >Me llamo María del Valle Déniz Díaz en la actualidad soy estudiante de 2º de DAM en los Salesianos La cuesta</Text>
           <QRCode value= 'https://github.com/valle88/ProyectoLayout.git'/>
             
           
@@ -27,11 +27,19 @@ const styles = StyleSheet.create({
     container:{
       flex:3,
       flexDirection: 'column',
-      justifyContent:'space-evenly'
+      justifyContent:'space-evenly',
+      alignItems: 'center'
         
 
 
     },
+    texto:{
+      fontSize:18,
+      justifyContent:'center',
+      marginLeft:20,
+      marginRight:20
+
+    }
    
   });
 

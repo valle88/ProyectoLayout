@@ -26,7 +26,8 @@ const styles = StyleSheet.create({
    },
    texto:{
     justifyContent: 'space-between',
-
+    fontSize:20,
+    fontWeight: 'bold',
     color: 'white'
    }
  });
