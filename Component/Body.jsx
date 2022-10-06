@@ -7,7 +7,8 @@
         <View style= {styles.container}>
 
 
-          <Text style= {styles.texto} >Me llamo María del Valle Déniz Díaz en la actualidad soy estudiante de 2º de DAM en los Salesianos La cuesta</Text>
+          <Text style= {styles.texto} >Me llamo María del Valle Déniz Díaz en la actualidad soy estudiante de 2º de DAM en los Salesianos La cuesta.
+          Me gusta lo que estoy estudiando, aunque me he dado cuenta que me llama mas la cocina.</Text>
           <QRCode value= 'https://github.com/valle88/ProyectoLayout.git'/>
             
           
