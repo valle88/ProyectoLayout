@@ -14,11 +14,14 @@ const styles = StyleSheet.create({
     width:'100%',
     flex: 1,
     flexDirection: 'row',
-    backgroundColor: 'gray',
+    backgroundColor: '#00FFFF',
     alignItems: 'center',
-    justifyContent: 'space-evenly'
+    justifyContent: 'space-evenly',
+    
+
    },
    logo: {
+    marginTop: 10,
      width: 120,
      height: 120,
      backgroundColor: 'yellow',
