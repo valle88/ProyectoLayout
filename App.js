@@ -1,12 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+
+import { StyleSheet, View } from 'react-native';
 import Body from './Component/Body';
+import Cabeza from './Component/Cabeza';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>blanco</Text>
+      <Cabeza/>
       <Body/>
-      <StatusBar style="auto" />
     </View>
   );
 }
